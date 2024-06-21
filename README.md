@@ -1,7 +1,4 @@
 # Automated Customer Segmentation Prediction Pipeline
-<<<<<<< Updated upstream
-Data Fellowship 12 final project for Group 2: Automated Customer Lifetime Value Prediction with Machine Learning. 
-=======
 IYKRA Data Fellowship 12 capstone project for Group 2: Automated Customer Lifetime Value Prediction with Machine Learning.
 
 <b>Driven Output</b>
@@ -53,7 +50,7 @@ Create a data pipeline from existing data that can be utilized to segment the cu
 - Dataset: [UCI Machine Learning Repository - Online Retail](https://archive.ics.uci.edu/dataset/352/online+retail)
 - Deck: [here](https://www.canva.com/design/DAGHz94GfKk/-6ouiyRnokpBEuaeVdSHoQ/view?utm_content=DAGHz94GfKk&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 - Whitepaper: [here](https://www.canva.com/design/DAGIB9v79U4/DLTx8i45HcL0BPOzoMRvbw/edit)
-- API: [FastAPI](https://life-time-value-iykra-0c4613e1.koyeb.app/docs)
+- API: [FastAPI](https://github.com/fahernkhan/Customer-Lifetime-Value-API)
 - Dashboard: [Looker Data Studio](https://lookerstudio.google.com/u/0/reporting/736a49b1-f5cf-474a-b801-498781dbc41d/page/N5J2D)
 
 ## Team Member
@@ -62,4 +59,3 @@ Create a data pipeline from existing data that can be utilized to segment the cu
 - Fathurrahman Hernanda Khasan ([Github](https://github.com/fahernkhan), [Linkedin](https://id.linkedin.com/in/fathurrahmanhernanda/in))
 - Muhammad Zakie Arfiansyah ([Github](https://github.com/zakiearfi), [Linkedin](https://github.com/zakiearfi))
 - Ridho Alfayet Umar ([Github](https://github.com/fayetumar), [Linkedin](https://id.linkedin.com/in/ridhoal))
->>>>>>> Stashed changes
