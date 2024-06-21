@@ -1,0 +1,17 @@
+checks for report_sales:
+  # Check fails when product_key or english_product_name is missing, OR
+  # when the data type of those columns is other than specified
+  - schema:
+      fail:
+        when required column missing: [invoice_id, datetime_id, product_id, Description, customer_id, quantity, total_price]
+        when wrong column type:
+          invoice_id : STRING
+          datetime_id : DATETIME
+          product_id : STRING
+          Description : STRING
+          customer_id : FLOAT64
+          quantity : INTEGER
+          total_price : FLOAT64
+  # Check fails if the total price is lower or equal to 0
+  - min(total_price):
+      fail: when <= 0

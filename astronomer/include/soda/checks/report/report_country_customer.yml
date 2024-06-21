@@ -1,0 +1,4 @@
+checks for report_country_customer:
+  # Check fails if the total invoices is lower or equal to 0
+  - min(total_invoices):
+      fail: when <= 0

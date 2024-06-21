@@ -1,0 +1,12 @@
+
+# sources.yml
+version: 2
+
+sources:
+  - name: retail
+    database: iconic-indexer-418610 # Put the project id!
+
+    tables:
+      - name: raw_invoices
+      - name: country
+      - name: rfm_segments_final

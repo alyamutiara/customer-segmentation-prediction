@@ -1,0 +1,23 @@
+checks for report_customer:
+  # Check fails when product_key or english_product_name is missing, OR
+  # when the data type of those columns is other than specified
+  - schema:
+      fail:
+        when required column missing: [datetime_id, customer_id, Country, Total_Orders, Total_Items, Total_Sales, RFM_Segment, RFM_Score, Segment]
+        when wrong column type: 
+          datetime_id : DATETIME
+          customer_id : FLOAT64
+          Country : STRING
+          Total_Orders : INT64
+          Total_Items : INT64
+          Total_Sales : FLOAT64
+          RFM_Segment : STRING
+          RFM_Score : INT64
+          Segment : STRING
+
+  # Check fails if the country column has any missing values
+  - missing_count(customer_id) = 0:
+      name: All customers have a customer_id
+  # Check fails if the total sales is lower or equal to 0
+  - min(Total_Sales):
+      fail: when <= 0

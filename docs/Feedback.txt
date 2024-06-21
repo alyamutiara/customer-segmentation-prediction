@@ -1,0 +1,32 @@
+Dalam kasus perbankan dan retail, penting untuk kita mengerti value seorang customer, mana customer yg akan membawa revenue tinggi pada company, mana customer yang berisiko churn (berhenti menggunakan layanan). Secara tradisional, hubungan dengan customer dapat diatur dengan perkiraan tanpa data dan analisis yang nyata, sehingga potensi worth seorang customer tidak dapat diprediksi.
+
+Ada salah satu metode untuk mengetahui worth atau value customer dengan menggunakan Customer Lifetime Value. Tujuannya, diharapkan banking dapat mengetahui reason pengambilan keputusan strategis, personalized marketing, dan optimasi offering berdasarkan data.
+
+
+PROBLEM STATEMENT
+Jika banking mengambil keputusan tanpa menggunakan CLV, ada beberapa problem yang bisa muncul.
+1. Alokasi resource yang tidak efisien: membuat marketing perlu melakukan usaha lebih yang memiliki chance untuk tidak tepat sasaran.
+
+2. Segmentasi customer yang terbatas: 
+
+3. Pendekatan reaktif pada customer churn: 
+
+
+GOAL
+Membangun dan mengimplementasikan sistem prediksi dengan machine learning secara otomatis untuk memprediksi value customer dengan customer lifetime value dari data historical.
+
+
+
+
+NOOOOOTEEEEEE
+tambahin nomor di slidenya
+jangan kebanyakan text
+
+
+arsitektur sudah bagus, sudah lengkap. yg bagian medalion ditambahin tulisan, atau logo bq nya satu tapi
+
+cost udah oke, tapi sebaiknya: dari beberapa tools yg digunakan semua ditulis, sudut pandang tools, kalau bisa memperkirakan gimana costnya kalau datanya membesar? free pun ditulis
+
+dipersingkat dari waktu, pembagian ngomong biar ngga bolak-balik
+
+pickle untuk import dan eksport data

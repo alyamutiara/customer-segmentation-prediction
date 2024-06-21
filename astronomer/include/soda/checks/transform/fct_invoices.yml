@@ -1,0 +1,17 @@
+checks for fct_invoices:
+  # Check fails when invoice_id, quantity, total is missing or
+  # when the data type of those columns is other than specified
+  - schema:
+      fail:
+        when required column missing: 
+          [invoice_id, customer_id, product_id, datetime_id, quantity, total_price]
+        when wrong column type:
+          invoice_id: STRING
+          customer_id: FLOAT64
+          product_id: STRING
+          datetime_id: DATETIME
+          quantity: INTEGER
+          total_price: FLOAT64
+  # Check fails when NULL values in the column
+  - missing_count(invoice_id) = 0:
+      name: All invoices have a key

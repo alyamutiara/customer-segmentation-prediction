@@ -1,0 +1,4 @@
+checks for report_product_invoices:
+  # Check fails if the stock_code column has any missing values
+  - missing_count(product_id) = 0:
+      name: All products have a stock code

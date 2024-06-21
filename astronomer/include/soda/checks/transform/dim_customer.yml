@@ -1,0 +1,11 @@
+checks for dim_customer:
+  - schema:
+      fail:
+        when required column missing: 
+          [customer_id, Country, first_transaction, last_transaction, count_order]
+        when wrong column type:
+          customer_id : FLOAT64
+          Country : STRING
+          first_transaction : DATETIME
+          last_transaction : DATETIME
+          count_order : INT64

@@ -1,0 +1,23 @@
+checks for dim_datetime:
+  # Check fails when product_key or english_product_name is missing, OR
+  # when the data type of those columns is other than specified
+  - schema:
+      fail:
+        when required column missing: [datetime_id, year, month, day, quarter, week_of_year, hour,  day_of_week]
+        when wrong column type:
+          datetime_id: DATETIME
+          year : INT64
+          month : INT64
+          day : INT64
+          quarter : INT64
+          hour : INT64
+          week_of_year : INT64
+          day_of_week : INT64
+  # Check failes when weekday is not in range 0-6
+  - invalid_count(month) = 0:
+      name: All weekdays are in range 1-12
+      valid min: 1
+      valid max: 12
+  # Check fails when any NULL values exist in the column
+  - missing_count(datetime_id) = 0:
+      name: All datetimes have a key
