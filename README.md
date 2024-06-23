@@ -28,6 +28,11 @@ Create a data pipeline from existing data that can be utilized to segment the cu
 
 ## Proposed Architecture
 ![Pipeline Architecture](/img/pipeline-architecture.png)
+## Data Pipeline
+![image](https://github.com/alyamutiara/customer-segmentation-prediction/assets/128980804/3801b6ef-10dd-4617-b17d-67e4015ed3a6)
+## Machine Learning Pipeline
+![image](https://github.com/alyamutiara/customer-segmentation-prediction/assets/128980804/c04fa810-38f2-4d47-8b70-baf57618adf7)
+
 
 
 ## Tools
