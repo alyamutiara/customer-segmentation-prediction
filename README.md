@@ -37,6 +37,8 @@ Create a data pipeline from existing data that can be utilized to segment the cu
 
 ## Data Modeling
 ![Data Modeling](/img/database-scema-medalion-architectur.png)
+## Data Lineage
+![Data Lineage](/img/Data-lineage.png)
 
 ## Tools
 - Data Warehouse: BigQuery
