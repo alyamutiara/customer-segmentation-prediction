@@ -33,7 +33,10 @@ Create a data pipeline from existing data that can be utilized to segment the cu
 ## Machine Learning Pipeline
 ![image](https://github.com/alyamutiara/customer-segmentation-prediction/assets/128980804/c04fa810-38f2-4d47-8b70-baf57618adf7)
 
+# Data Warehouse
 
+## Data Modeling
+![Data Modeling](/img/database-scema-medalion-architectur.png)
 
 ## Tools
 - Data Warehouse: BigQuery
